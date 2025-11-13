@@ -13,6 +13,14 @@ import {
   Mountain,
   Snowflake
 } from "lucide-react";
+import kitchenImage from "@/assets/kitchen-remodeling.jpg";
+import bathroomImage from "@/assets/bathroom-remodeling.jpg";
+import exteriorImage from "@/assets/exterior-services.jpg";
+import decksImage from "@/assets/decks.jpg";
+import sidingImage from "@/assets/siding.jpg";
+import roofingImage from "@/assets/roofing.jpg";
+import hardscapeImage from "@/assets/hardscape.jpg";
+import snowImage from "@/assets/snow-removal.jpg";
 
 const services = [
   {
@@ -20,48 +28,56 @@ const services = [
     description: "Transform your kitchen into a stunning, functional space where memories are made. Custom cabinets, countertops, and layouts.",
     icon: <Home className="h-8 w-8" />,
     href: "/kitchen-remodeling",
+    image: kitchenImage,
   },
   {
     title: "Bathroom Remodeling",
     description: "Luxurious bathroom upgrades that combine style, comfort, and lasting value. From spa-like retreats to functional family baths.",
     icon: <Droplet className="h-8 w-8" />,
     href: "/bathroom-remodeling",
+    image: bathroomImage,
   },
   {
     title: "Exterior Services",
     description: "Comprehensive exterior solutions to protect and enhance your home's curb appeal and structural integrity.",
     icon: <Hammer className="h-8 w-8" />,
     href: "/exterior-services",
+    image: exteriorImage,
   },
   {
     title: "Decks",
     description: "Custom decks that extend your living space and enhance outdoor entertaining. Quality materials and expert craftsmanship.",
     icon: <Frame className="h-8 w-8" />,
     href: "/decks",
+    image: decksImage,
   },
   {
     title: "Siding",
     description: "Protect and beautify your home with premium siding solutions. Energy-efficient, durable, and maintenance-free options.",
     icon: <Siding className="h-8 w-8" />,
     href: "/siding",
+    image: sidingImage,
   },
   {
     title: "Roofing",
     description: "Dependable roofing that safeguards your home and family. Expert installation and repairs for all roof types.",
     icon: <ShieldCheck className="h-8 w-8" />,
     href: "/roofing",
+    image: roofingImage,
   },
   {
     title: "Hardscape",
     description: "Elegant patios, walkways, retaining walls, and outdoor features that impress. Transform your outdoor living spaces.",
     icon: <Mountain className="h-8 w-8" />,
     href: "/hardscape",
+    image: hardscapeImage,
   },
   {
     title: "Snow Removal",
     description: "Reliable winter snow removal services to keep your property safe and accessible throughout the season.",
     icon: <Snowflake className="h-8 w-8" />,
     href: "/snow-removal",
+    image: snowImage,
   },
 ];
 
