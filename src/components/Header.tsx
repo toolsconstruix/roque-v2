@@ -19,10 +19,11 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-20 items-center justify-between">
         <Link to="/" className="flex items-center space-x-3">
-          <img src={logo} alt="Roque General Services" className="h-14 w-14" />
-          <div className="hidden md:block">
-            <span className="text-xl font-bold text-primary">Roque General Services</span>
-          </div>
+          <img
+            src={logo}
+            alt="Roque General Services"
+            className="h-14 w-14 aspect-square object-contain"
+          />
         </Link>
 
         {/* Desktop Navigation */}

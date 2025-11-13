@@ -33,7 +33,7 @@ export function Footer() {
             <div className="space-y-2">
               <a href="tel:+15555555555" className="flex items-center text-sm hover:text-accent transition-colors">
                 <Phone className="mr-2 h-4 w-4" />
-                (555) 555-5555
+                (555) 98126-6172
               </a>
               <a href="mailto:info@roquegeneralservices.com" className="flex items-center text-sm hover:text-accent transition-colors">
                 <Mail className="mr-2 h-4 w-4" />

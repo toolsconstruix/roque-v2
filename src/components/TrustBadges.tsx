@@ -4,7 +4,7 @@ const badges = [
   {
     icon: Shield,
     title: "Licensed & Insured",
-    description: "Fully licensed MA contractor",
+    description: "Empreiteiro totalmente licenciado em MA",
   },
   {
     icon: Clock,

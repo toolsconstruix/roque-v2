@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import Index from "./pages/Index";
 import Services from "./pages/Services";
 import KitchenRemodeling from "./pages/KitchenRemodeling";
+import Portfolio from "./pages/Portfolio";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -35,6 +36,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/kitchen-remodeling" element={<KitchenRemodeling />} />
             {/* Additional service pages would follow the same pattern */}
             <Route path="*" element={<NotFound />} />
