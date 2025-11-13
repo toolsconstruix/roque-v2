@@ -19,6 +19,13 @@ import {
   ArrowRight,
   CheckCircle
 } from "lucide-react";
+import heroImage from "@/assets/hero-home.jpg";
+import kitchenImage from "@/assets/kitchen-remodeling.jpg";
+import bathroomImage from "@/assets/bathroom-remodeling.jpg";
+import decksImage from "@/assets/decks.jpg";
+import sidingImage from "@/assets/siding.jpg";
+import roofingImage from "@/assets/roofing.jpg";
+import hardscapeImage from "@/assets/hardscape.jpg";
 
 const services = [
   {
@@ -26,36 +33,42 @@ const services = [
     description: "Transform your kitchen into a stunning, functional space where memories are made.",
     icon: <Home className="h-8 w-8" />,
     href: "/kitchen-remodeling",
+    image: kitchenImage,
   },
   {
     title: "Bathroom Remodeling",
     description: "Luxurious bathroom upgrades that combine style, comfort, and lasting value.",
     icon: <Droplet className="h-8 w-8" />,
     href: "/bathroom-remodeling",
+    image: bathroomImage,
   },
   {
     title: "Decks",
     description: "Custom decks that extend your living space and enhance outdoor entertaining.",
     icon: <Frame className="h-8 w-8" />,
     href: "/decks",
+    image: decksImage,
   },
   {
     title: "Siding",
     description: "Protect and beautify your home with premium siding solutions.",
     icon: <Siding className="h-8 w-8" />,
     href: "/siding",
+    image: sidingImage,
   },
   {
     title: "Roofing",
     description: "Dependable roofing that safeguards your home and family.",
     icon: <ShieldCheck className="h-8 w-8" />,
     href: "/roofing",
+    image: roofingImage,
   },
   {
     title: "Hardscape",
     description: "Elegant patios, walkways, and outdoor features that impress.",
     icon: <Mountain className="h-8 w-8" />,
     href: "/hardscape",
+    image: hardscapeImage,
   },
 ];
 
@@ -96,9 +109,14 @@ export default function Index() {
       <Header />
       
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-navy via-navy-light to-navy py-20 md:py-32 overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,rgba(255,122,0,0.1),transparent_50%)]" />
+      <section className="relative py-20 md:py-32 overflow-hidden">
+        <div className="absolute inset-0">
+          <img 
+            src={heroImage} 
+            alt="Luxury home in Massachusetts" 
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-navy/95 via-navy/80 to-navy/60" />
         </div>
         <div className="container relative z-10">
           <div className="max-w-3xl">
