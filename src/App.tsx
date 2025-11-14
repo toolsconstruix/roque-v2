@@ -8,6 +8,9 @@ import Index from "./pages/Index";
 import Services from "./pages/Services";
 import KitchenRemodeling from "./pages/KitchenRemodeling";
 import Portfolio from "./pages/Portfolio";
+import About from "./pages/About";
+import Testimonials from "./pages/Testimonials";
+import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -37,6 +40,9 @@ const App = () => {
             <Route path="/" element={<Index />} />
             <Route path="/services" element={<Services />} />
             <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/testimonials" element={<Testimonials />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/kitchen-remodeling" element={<KitchenRemodeling />} />
             {/* Additional service pages would follow the same pattern */}
             <Route path="*" element={<NotFound />} />

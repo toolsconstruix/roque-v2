@@ -15,7 +15,6 @@ import {
 } from "lucide-react";
 import kitchenImage from "@/assets/kitchen-remodeling.jpg";
 import bathroomImage from "@/assets/bathroom-remodeling.jpg";
-import exteriorImage from "@/assets/exterior-services.jpg";
 import decksImage from "@/assets/decks.jpg";
 import sidingImage from "@/assets/siding.jpg";
 import roofingImage from "@/assets/roofing.jpg";
@@ -24,57 +23,71 @@ import snowImage from "@/assets/snow-removal.jpg";
 
 const services = [
   {
+    title: "Interior & Exterior Painting",
+    description:
+      "High-quality painting services with smooth, long-lasting finishes for interior and exterior surfaces. Ideal for full home updates or single-room transformations.",
+    icon: <Siding className="h-8 w-8" />,
+    href: "/siding",
+    image: sidingImage,
+  },
+  {
+    title: "Decks, Fences & Carpentry",
+    description:
+      "Custom carpentry solutions including decks, wood fences, trim work, structural repairs, and detailed craftsmanship for both interior and exterior projects.",
+    icon: <Frame className="h-8 w-8" />,
+    href: "/decks",
+    image: decksImage,
+  },
+  {
     title: "Kitchen Remodeling",
-    description: "Transform your kitchen into a stunning, functional space where memories are made. Custom cabinets, countertops, and layouts.",
+    description:
+      "Complete kitchen transformations with custom cabinetry, countertop upgrades, lighting improvements, and optimized layouts designed for functionality and style.",
     icon: <Home className="h-8 w-8" />,
     href: "/kitchen-remodeling",
     image: kitchenImage,
   },
   {
     title: "Bathroom Remodeling",
-    description: "Luxurious bathroom upgrades that combine style, comfort, and lasting value. From spa-like retreats to functional family baths.",
+    description:
+      "Modern bathroom renovations with new vanities, showers, lighting, flooring, and layout improvements for comfort, durability, and elegance.",
     icon: <Droplet className="h-8 w-8" />,
     href: "/bathroom-remodeling",
     image: bathroomImage,
   },
   {
-    title: "Exterior Services",
-    description: "Comprehensive exterior solutions to protect and enhance your home's curb appeal and structural integrity.",
+    title: "Construction & Home Remodeling",
+    description:
+      "Full remodeling and construction services, including room upgrades, structural work, exterior builds, and interior improvements.",
     icon: <Hammer className="h-8 w-8" />,
-    href: "/exterior-services",
-    image: exteriorImage,
-  },
-  {
-    title: "Decks",
-    description: "Custom decks that extend your living space and enhance outdoor entertaining. Quality materials and expert craftsmanship.",
-    icon: <Frame className="h-8 w-8" />,
-    href: "/decks",
-    image: decksImage,
-  },
-  {
-    title: "Siding",
-    description: "Protect and beautify your home with premium siding solutions. Energy-efficient, durable, and maintenance-free options.",
-    icon: <Siding className="h-8 w-8" />,
-    href: "/siding",
-    image: sidingImage,
-  },
-  {
-    title: "Roofing",
-    description: "Dependable roofing that safeguards your home and family. Expert installation and repairs for all roof types.",
-    icon: <ShieldCheck className="h-8 w-8" />,
     href: "/roofing",
     image: roofingImage,
   },
   {
-    title: "Hardscape",
-    description: "Elegant patios, walkways, retaining walls, and outdoor features that impress. Transform your outdoor living spaces.",
-    icon: <Mountain className="h-8 w-8" />,
+    title: "Drywall, Trim & Flooring Installation",
+    description:
+      "Professional drywall installation/repair, trim and molding upgrades, and durable, stylish flooring installation.",
+    icon: <ShieldCheck className="h-8 w-8" />,
     href: "/hardscape",
     image: hardscapeImage,
   },
   {
+    title: "Home Upgrades & Improvements",
+    description:
+      "Practical aesthetic and functional improvements, from small repairs to interior updates that modernize and add comfort.",
+    icon: <Home className="h-8 w-8" />,
+    href: "/services",
+    image: roofingImage,
+  },
+  {
+    title: "Landscaping Services",
+    description: "Basic outdoor maintenance and garden care.",
+    icon: <Mountain className="h-8 w-8" />,
+    href: "/services",
+    image: hardscapeImage,
+  },
+  {
     title: "Snow Removal",
-    description: "Reliable winter snow removal services to keep your property safe and accessible throughout the season.",
+    description: "Winter snow clearing when needed.",
     icon: <Snowflake className="h-8 w-8" />,
     href: "/snow-removal",
     image: snowImage,

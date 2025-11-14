@@ -4,22 +4,22 @@ const badges = [
   {
     icon: Shield,
     title: "Licensed & Insured",
-    description: "Empreiteiro totalmente licenciado em MA",
+    description: "Fully licensed and insured in Massachusetts.",
   },
   {
     icon: Clock,
     title: "On-Time Guarantee",
-    description: "We respect your schedule",
+    description: "We respect your schedule  every project, every day.",
   },
   {
     icon: Award,
     title: "Quality Craftsmanship",
-    description: "Excellence in every detail",
+    description: "Skilled workmanship and attention to every detail.",
   },
   {
     icon: Users,
     title: "100+ Happy Clients",
-    description: "Massachusetts homeowners trust us",
+    description: "Trusted by homeowners across Massachusetts.",
   },
 ];
 

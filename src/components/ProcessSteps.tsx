@@ -4,27 +4,27 @@ const steps = [
   {
     icon: Phone,
     title: "Consultation",
-    description: "We listen to your vision and assess your space.",
+    description: "We listen to your goals and assess your space.",
   },
   {
     icon: Lightbulb,
     title: "Design Support",
-    description: "Get expert guidance on materials, layout, and style.",
+    description: "Clear guidance on materials, finishes, and layout options.",
   },
   {
     icon: FileText,
     title: "Detailed Estimate",
-    description: "Transparent pricing with no hidden surprises.",
+    description: "Transparent pricing with no unexpected costs.",
   },
   {
     icon: Hammer,
     title: "On-Time Execution",
-    description: "Organized crews, tidy job sites, punctual completion.",
+    description: "Organized job sites and punctual completion.",
   },
   {
     icon: CheckCircle,
     title: "Final Walkthrough",
-    description: "We ensure every detail meets your expectations.",
+    description: "Ensuring every detail meets your expectations.",
   },
 ];
 

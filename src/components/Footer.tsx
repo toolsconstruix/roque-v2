@@ -31,9 +31,9 @@ export function Footer() {
               Premium remodeling and exterior services for Massachusetts homeowners.
             </p>
             <div className="space-y-2">
-              <a href="tel:+15555555555" className="flex items-center text-sm hover:text-accent transition-colors">
+              <a href="tel:+17815269534" className="flex items-center text-sm hover:text-accent transition-colors">
                 <Phone className="mr-2 h-4 w-4" />
-                (555) 98126-6172
+                (781) 526-9534
               </a>
               <a href="mailto:info@roquegeneralservices.com" className="flex items-center text-sm hover:text-accent transition-colors">
                 <Mail className="mr-2 h-4 w-4" />
@@ -94,11 +94,6 @@ export function Footer() {
               <li>
                 <Link to="/testimonials" className="text-sm text-primary-foreground/80 hover:text-accent transition-colors">
                   Testimonials
-                </Link>
-              </li>
-              <li>
-                <Link to="/blog" className="text-sm text-primary-foreground/80 hover:text-accent transition-colors">
-                  Blog
                 </Link>
               </li>
               <li>

@@ -26,81 +26,126 @@ import decksImage from "@/assets/decks.jpg";
 import sidingImage from "@/assets/siding.jpg";
 import roofingImage from "@/assets/roofing.jpg";
 import hardscapeImage from "@/assets/hardscape.jpg";
+import snowImage from "@/assets/snow-removal.jpg";
 
 const services = [
   {
+    title: "Interior & Exterior Painting",
+    description:
+      "High-quality painting services with smooth, long-lasting finishes for interior and exterior surfaces. Ideal for full home updates or single-room transformations.",
+    icon: <Siding className="h-8 w-8" />,
+    href: "/siding",
+    image: sidingImage,
+  },
+  {
+    title: "Decks, Fences & Carpentry",
+    description:
+      "Custom carpentry solutions including decks, wood fences, trim work, structural repairs, and detailed craftsmanship for both interior and exterior projects.",
+    icon: <Frame className="h-8 w-8" />,
+    href: "/decks",
+    image: decksImage,
+  },
+  {
     title: "Kitchen Remodeling",
-    description: "Transform your kitchen into a stunning, functional space where memories are made.",
+    description:
+      "Complete kitchen transformations with custom cabinetry, countertop upgrades, lighting improvements, and optimized layouts designed for functionality and style.",
     icon: <Home className="h-8 w-8" />,
     href: "/kitchen-remodeling",
     image: kitchenImage,
   },
   {
     title: "Bathroom Remodeling",
-    description: "Luxurious bathroom upgrades that combine style, comfort, and lasting value.",
+    description:
+      "Modern bathroom renovations with new vanities, showers, lighting, flooring, and layout improvements for comfort, durability, and elegance.",
     icon: <Droplet className="h-8 w-8" />,
     href: "/bathroom-remodeling",
     image: bathroomImage,
   },
   {
-    title: "Decks",
-    description: "Custom decks that extend your living space and enhance outdoor entertaining.",
-    icon: <Frame className="h-8 w-8" />,
-    href: "/decks",
-    image: decksImage,
-  },
-  {
-    title: "Siding",
-    description: "Protect and beautify your home with premium siding solutions.",
-    icon: <Siding className="h-8 w-8" />,
-    href: "/siding",
-    image: sidingImage,
-  },
-  {
-    title: "Roofing",
-    description: "Dependable roofing that safeguards your home and family.",
-    icon: <ShieldCheck className="h-8 w-8" />,
+    title: "Construction & Home Remodeling",
+    description:
+      "Full remodeling and construction services, including room upgrades, structural work, exterior builds, and interior improvements.",
+    icon: <Hammer className="h-8 w-8" />,
     href: "/roofing",
     image: roofingImage,
   },
   {
-    title: "Hardscape",
-    description: "Elegant patios, walkways, and outdoor features that impress.",
-    icon: <Mountain className="h-8 w-8" />,
+    title: "Drywall, Trim & Flooring Installation",
+    description:
+      "Professional drywall installation/repair, trim and molding upgrades, and durable, stylish flooring installation.",
+    icon: <ShieldCheck className="h-8 w-8" />,
     href: "/hardscape",
     image: hardscapeImage,
+  },
+  {
+    title: "Home Upgrades & Improvements",
+    description:
+      "Practical aesthetic and functional improvements, from small repairs to interior updates that modernize and add comfort.",
+    icon: <Home className="h-8 w-8" />,
+    href: "/services",
+    image: roofingImage,
+  },
+  {
+    title: "Landscaping Services",
+    description: "Basic outdoor maintenance and garden care.",
+    icon: <Mountain className="h-8 w-8" />,
+    href: "/services",
+    image: hardscapeImage,
+  },
+  {
+    title: "Snow Removal",
+    description: "Winter snow clearing when needed.",
+    icon: <Snowflake className="h-8 w-8" />,
+    href: "/services",
+    image: snowImage,
   },
 ];
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    location: "Winchester, MA",
+    name: "Elena Mendez-Escobar",
+    location: "Massachusetts",
     rating: 5,
-    service: "Kitchen Remodeling",
-    text: "Roque General Services transformed our dated kitchen into a modern masterpiece. They were on time every single day, kept the workspace immaculate, and the attention to detail was extraordinary. Highly recommend!",
+    service: "General Home Services",
+    text: "We had a great experience with Roque General Services! They were very responsive, took the time to understand our needs, delivered on time exactly as planned, communicated clearly throughout the process, and were very flexible as things came up. Overall, it was a very smooth process to complete a project we had been wanting for years.",
   },
   {
-    name: "Michael Chen",
-    location: "Wellesley, MA",
+    name: "Zamawa Arenas",
+    location: "Massachusetts",
     rating: 5,
-    service: "Bathroom Remodeling",
-    text: "From design to completion, the team was professional and organized. Our new bathroom is stunning, and they finished exactly when promised. Worth every penny.",
+    service: "Multiple Projects",
+    text: "Fábio and the Roque Services team are great to work with. We’ve hired them for several projects, and they have always been responsive, easy to work with, and delivered high-quality results. Can’t recommend them highly enough!",
   },
   {
-    name: "Jennifer Rodriguez",
-    location: "Newton, MA",
+    name: "Laura Caballero",
+    location: "Massachusetts",
     rating: 5,
-    service: "Deck Construction",
-    text: "We absolutely love our new deck! The craftsmanship is exceptional, and they made the entire process stress-free. Our backyard is now the neighborhood gathering spot.",
+    service: "General Construction & Remodeling",
+    text: "This company is exceptional! They consistently deliver high-quality work across a wide range of projects. I was impressed by their reasonable pricing and how well they tailored their services to my needs. I would definitely work with them again!",
   },
 ];
 
 const stats = [
-  { value: "15+", label: "Years Experience" },
-  { value: "500+", label: "Projects Completed" },
-  { value: "100%", label: "Satisfaction Rate" },
-  { value: "5.0", label: "Average Rating" },
+  {
+    value: "15+",
+    label: "Years Experience",
+    description: "Decades of combined expertise you can rely on.",
+  },
+  {
+    value: "500+",
+    label: "Projects Completed",
+    description: "Proven results across Massachusetts.",
+  },
+  {
+    value: "100%",
+    label: "Satisfaction Rate",
+    description: "Committed to delivering excellence.",
+  },
+  {
+    value: "5.0",
+    label: "Average Rating",
+    description: "Quality homeowners consistently recommend.",
+  },
 ];
 
 export default function Index() {
@@ -124,17 +169,14 @@ export default function Index() {
               Proudly Serving Massachusetts
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              On-time. Organized. <br />Built to impress.
+              On Time. Well-Organized. <br />Built to Impress.
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
-              Premium kitchen & bath remodeling and exterior upgrades for discerning Massachusetts homeowners.
+              Premium interior & exterior painting, carpentry, and full home remodeling services for Massachusetts homeowners.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" asChild className="text-lg">
-                <Link to="/contact">Get a Free Estimate</Link>
-              </Button>
               <Button size="lg" variant="outline" asChild className="text-lg bg-white/10 backdrop-blur border-white/20 text-white hover:bg-white/20">
-                <Link to="/portfolio">See Our Work</Link>
+                <Link to="/contact">Contact Us Today</Link>
               </Button>
             </div>
           </div>
@@ -155,7 +197,10 @@ export default function Index() {
             {stats.map((stat) => (
               <div key={stat.label} className="text-center">
                 <div className="text-4xl md:text-5xl font-bold text-accent mb-2">{stat.value}</div>
-                <div className="text-sm md:text-base text-white/80">{stat.label}</div>
+                <div className="text-sm md:text-base text-white/90 font-medium">{stat.label}</div>
+                <p className="mt-1 text-xs md:text-sm text-white/70 max-w-xs mx-auto">
+                  {stat.description}
+                </p>
               </div>
             ))}
           </div>
@@ -168,7 +213,7 @@ export default function Index() {
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Services</h2>
             <p className="text-lg text-muted-foreground">
-              From kitchen & bath craftsmanship to exterior upgrades and winter snow removal — done right.
+              High-quality painting, carpentry, remodeling, and home improvement services  done right from start to finish.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -185,7 +230,7 @@ export default function Index() {
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Process</h2>
             <p className="text-lg text-muted-foreground">
-              Schedules that stick. Sites that stay clean. Results that wow.
+              On time. Well organized. Built with attention to every detail.
             </p>
           </div>
           <ProcessSteps />
@@ -206,7 +251,7 @@ export default function Index() {
                   <div>
                     <h3 className="text-xl font-semibold mb-2">Punctual & Reliable</h3>
                     <p className="text-muted-foreground">
-                      We show up on time, every time. Your schedule matters to us.
+                      We show up on time and keep your project moving.
                     </p>
                   </div>
                 </div>
@@ -215,7 +260,7 @@ export default function Index() {
                   <div>
                     <h3 className="text-xl font-semibold mb-2">Organized Job Sites</h3>
                     <p className="text-muted-foreground">
-                      Clean, safe, and respectful of your home throughout the project.
+                      Clean, safe, and respectful of your home at all times.
                     </p>
                   </div>
                 </div>
@@ -224,7 +269,7 @@ export default function Index() {
                   <div>
                     <h3 className="text-xl font-semibold mb-2">Proactive Communication</h3>
                     <p className="text-muted-foreground">
-                      You'll always know what's happening, when, and why.
+                      You'll always know what's happening and when.
                     </p>
                   </div>
                 </div>
@@ -233,7 +278,7 @@ export default function Index() {
                   <div>
                     <h3 className="text-xl font-semibold mb-2">Quality Craftsmanship</h3>
                     <p className="text-muted-foreground">
-                      Premium materials, skilled workmanship, and attention to every detail.
+                      Premium materials, skilled workmanship, and attention to detail.
                     </p>
                   </div>
                 </div>
@@ -288,7 +333,7 @@ export default function Index() {
                 Ready to Transform Your Home?
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Get a detailed, transparent estimate for your project. No pressure, no hidden fees — just honest pricing from experienced professionals.
+                Get a transparent estimate from experienced professionals — no pressure, no hidden fees.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center">
@@ -306,8 +351,8 @@ export default function Index() {
               </div>
               <div className="mt-8 p-6 bg-accent/10 rounded-lg border border-accent/20">
                 <p className="font-semibold text-lg mb-2">Or call us directly:</p>
-                <a href="tel:+15555555555" className="text-2xl font-bold text-accent hover:text-accent/80">
-                  (555) 555-5555
+                <a href="tel:+17815269534" className="text-2xl font-bold text-accent hover:text-accent/80">
+                  (781) 526-9534
                 </a>
               </div>
             </div>

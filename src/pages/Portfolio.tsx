@@ -10,47 +10,69 @@ import hardscapeImage from "@/assets/hardscape.jpg";
 
 const projects = [
   {
-    title: "Modern Kitchen Remodel",
+    title: "Decks & Carpentry",
+    location: "Newton, MA",
+    service: "Carpentry",
+    image: decksImage,
+    highlights: [
+      "Custom deck construction and railings",
+      "Low-maintenance composite materials",
+      "Built for outdoor entertainment and durability",
+    ],
+  },
+  {
+    title: "Interior & Exterior Painting",
+    location: "Arlington, MA",
+    service: "Painting",
+    image: kitchenImage,
+    highlights: [
+      "Full exterior repaint and trim refinishing",
+      "Clean, modern interior wall and ceiling finishes",
+      "Long-lasting results with high-quality materials",
+    ],
+  },
+  {
+    title: "Drywall & Trim",
+    location: "Woburn, MA",
+    service: "Drywall & Trim",
+    image: bathroomImage,
+    highlights: [
+      "Drywall installation and repair",
+      "Smooth finishing and detailed trim work",
+      "Clean, seamless interior results",
+    ],
+  },
+  {
+    title: "Complete Interior Renovation",
+    location: "Lexington, MA",
+    service: "Interior Renovation",
+    image: hardscapeImage,
+    highlights: [
+      "Full demolition and redesign",
+      "New drywall, flooring, and layout improvements",
+      "Complete transformation from start to finish",
+    ],
+  },
+  {
+    title: "Kitchen Remodeling",
     location: "Winchester, MA",
     service: "Kitchen Remodeling",
     image: kitchenImage,
     highlights: [
-      "Custom cabinetry and quartz countertops",
+      "Custom cabinetry and new countertops",
       "Improved layout for better flow",
-      "Under-cabinet lighting and upgraded appliances",
+      "Updated lighting and upgraded appliances",
     ],
   },
   {
-    title: "Spa-Inspired Bathroom",
-    location: "Wellesley, MA",
+    title: "Bathroom Remodeling",
+    location: "Medford, MA",
     service: "Bathroom Remodeling",
     image: bathroomImage,
     highlights: [
       "Walk-in shower with glass enclosure",
-      "Heated floors and premium tile",
-      "Custom vanity and storage solutions",
-    ],
-  },
-  {
-    title: "Entertainer's Deck",
-    location: "Newton, MA",
-    service: "Decks",
-    image: decksImage,
-    highlights: [
-      "Low-maintenance composite decking",
-      "Integrated lighting and railing system",
-      "Space planned for dining and lounging",
-    ],
-  },
-  {
-    title: "Outdoor Living Hardscape",
-    location: "Lexington, MA",
-    service: "Hardscape",
-    image: hardscapeImage,
-    highlights: [
-      "Paver patio and seating wall",
-      "Defined zones for fire pit and dining",
-      "Drainage and grading improvements",
+      "New vanity and optimized layout",
+      "Premium tile and lighting upgrades",
     ],
   },
 ];
