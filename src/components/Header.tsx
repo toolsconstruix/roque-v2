@@ -72,13 +72,19 @@ export function Header() {
             <SheetContent side="right" className="w-72">
               <nav className="flex flex-col space-y-4 mt-8">
                 {navigation.map((item) => (
-                  <Link
+                  <NavLink
                     key={item.name}
                     to={item.href}
-                    className="text-base font-medium text-foreground hover:text-primary transition-colors"
+                    className={({ isActive }) =>
+                      [
+                        "text-base font-medium transition-colors",
+                        "hover:text-primary",
+                        isActive ? "text-accent" : "text-foreground",
+                      ].join(" ")
+                    }
                   >
                     {item.name}
-                  </Link>
+                  </NavLink>
                 ))}
                 <Button asChild className="mt-4">
                   <Link to="/contact">Get a Free Estimate</Link>
