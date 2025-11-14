@@ -9,6 +9,9 @@ import { ScrollToTop } from "@/components/ScrollToTop";
 import Index from "./pages/Index";
 import Services from "./pages/Services";
 import KitchenRemodeling from "./pages/KitchenRemodeling";
+import DecksCarpentry from "./pages/DecksCarpentry";
+import BathroomRemodeling from "./pages/BathroomRemodeling";
+import InteriorExteriorPainting from "./pages/InteriorExteriorPainting";
 import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Testimonials from "./pages/Testimonials";
@@ -42,6 +45,9 @@ const App = () => {
           <Routes>
             <Route path="/" element={<PageTransition><Index /></PageTransition>} />
             <Route path="/services" element={<PageTransition><Services /></PageTransition>} />
+            <Route path="/interior-exterior-painting" element={<PageTransition><InteriorExteriorPainting /></PageTransition>} />
+            <Route path="/decks" element={<PageTransition><DecksCarpentry /></PageTransition>} />
+            <Route path="/bathroom-remodeling" element={<PageTransition><BathroomRemodeling /></PageTransition>} />
             <Route path="/portfolio" element={<PageTransition><Portfolio /></PageTransition>} />
             <Route path="/about" element={<PageTransition><About /></PageTransition>} />
             <Route path="/testimonials" element={<PageTransition><Testimonials /></PageTransition>} />

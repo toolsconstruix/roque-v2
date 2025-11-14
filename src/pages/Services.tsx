@@ -28,7 +28,7 @@ const services = [
     description:
       "High-quality painting services with smooth, long-lasting finishes for interior and exterior surfaces. Ideal for full home updates or single-room transformations.",
     icon: <Siding className="h-8 w-8" />,
-    href: "/siding",
+    href: "/interior-exterior-painting",
     image: interiorExteriorPaintingImage,
   },
   {

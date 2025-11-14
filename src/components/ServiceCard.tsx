@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 interface ServiceCardProps {
@@ -33,12 +32,13 @@ export function ServiceCard({ title, description, icon, href, image }: ServiceCa
         <CardDescription className="text-base">{description}</CardDescription>
       </CardHeader>
       <CardContent>
-        <Button variant="ghost" asChild className="group/btn p-0 h-auto">
-          <Link to={href} className="flex items-center text-accent hover:text-accent/80">
-            Learn More
-            <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
-          </Link>
-        </Button>
+        <Link
+          to={href}
+          className="inline-flex items-center text-accent hover:text-accent/80 transition-colors group"
+        >
+          Learn More
+          <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+        </Link>
       </CardContent>
     </Card>
   );
