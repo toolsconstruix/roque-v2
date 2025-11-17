@@ -16,6 +16,7 @@ import Roofing from "./pages/Roofing";
 import Hardscape from "./pages/Hardscape";
 import HomeUpgrades from "./pages/HomeUpgrades";
 import Landscaping from "./pages/Landscaping";
+import SnowRemoval from "./pages/SnowRemoval";
 import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Testimonials from "./pages/Testimonials";
@@ -56,6 +57,7 @@ const App = () => {
             <Route path="/hardscape" element={<PageTransition><Hardscape /></PageTransition>} />
             <Route path="/home-upgrades" element={<PageTransition><HomeUpgrades /></PageTransition>} />
             <Route path="/landscaping" element={<PageTransition><Landscaping /></PageTransition>} />
+            <Route path="/snow-removal" element={<PageTransition><SnowRemoval /></PageTransition>} />
             <Route path="/portfolio" element={<PageTransition><Portfolio /></PageTransition>} />
             <Route path="/about" element={<PageTransition><About /></PageTransition>} />
             <Route path="/testimonials" element={<PageTransition><Testimonials /></PageTransition>} />
