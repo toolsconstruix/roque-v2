@@ -83,7 +83,7 @@ const services = [
     title: "Landscaping Services",
     description: "Basic outdoor maintenance and garden care.",
     icon: <Mountain className="h-8 w-8" />,
-    href: "/services",
+    href: "/landscaping",
     image: hardscapeImage,
   },
   {
