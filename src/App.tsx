@@ -12,6 +12,8 @@ import KitchenRemodeling from "./pages/KitchenRemodeling";
 import DecksCarpentry from "./pages/DecksCarpentry";
 import BathroomRemodeling from "./pages/BathroomRemodeling";
 import InteriorExteriorPainting from "./pages/InteriorExteriorPainting";
+import Roofing from "./pages/Roofing";
+import Hardscape from "./pages/Hardscape";
 import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Testimonials from "./pages/Testimonials";
@@ -48,6 +50,8 @@ const App = () => {
             <Route path="/interior-exterior-painting" element={<PageTransition><InteriorExteriorPainting /></PageTransition>} />
             <Route path="/decks" element={<PageTransition><DecksCarpentry /></PageTransition>} />
             <Route path="/bathroom-remodeling" element={<PageTransition><BathroomRemodeling /></PageTransition>} />
+            <Route path="/roofing" element={<PageTransition><Roofing /></PageTransition>} />
+            <Route path="/hardscape" element={<PageTransition><Hardscape /></PageTransition>} />
             <Route path="/portfolio" element={<PageTransition><Portfolio /></PageTransition>} />
             <Route path="/about" element={<PageTransition><About /></PageTransition>} />
             <Route path="/testimonials" element={<PageTransition><Testimonials /></PageTransition>} />
