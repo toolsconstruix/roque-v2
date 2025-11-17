@@ -82,7 +82,7 @@ const services = [
     description:
       "Practical aesthetic and functional improvements, from small repairs to interior updates that modernize and add comfort.",
     icon: <Home className="h-8 w-8" />,
-    href: "/services",
+    href: "/home-upgrades",
     image: roofingImage,
   },
   {
