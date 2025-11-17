@@ -19,7 +19,7 @@ export function LeadForm({ source, defaultService }: LeadFormProps) {
 
   return (
     <div className="w-full">
-      <div style={{ width: "100%", minHeight: 896 }}>
+      <div style={{ width: "100%", minHeight: 936 }}>
         <iframe
           src="https://api.leadconnectorhq.com/widget/form/eeMS0gRwum58bFpQHw0o"
           style={{ width: "100%", height: "100%", border: "none", borderRadius: 10 }}
@@ -32,7 +32,7 @@ export function LeadForm({ source, defaultService }: LeadFormProps) {
           data-deactivation-type="neverDeactivate"
           data-deactivation-value=""
           data-form-name="new_form_v2"
-          data-height="896"
+          data-height="936"
           data-layout-iframe-id="inline-eeMS0gRwum58bFpQHw0o"
           data-form-id="eeMS0gRwum58bFpQHw0o"
           title="new_form_v2"
