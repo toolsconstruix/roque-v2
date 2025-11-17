@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { trackPhoneClick } from "@/lib/analytics";
 import { ServiceCard } from "@/components/ServiceCard";
 import { TrustBadges } from "@/components/TrustBadges";
 import { ProcessSteps } from "@/components/ProcessSteps";
@@ -351,7 +352,11 @@ export default function Index() {
               </div>
               <div className="mt-8 p-6 bg-accent/10 rounded-lg border border-accent/20">
                 <p className="font-semibold text-lg mb-2">Or call us directly:</p>
-                <a href="tel:+17815269534" className="text-2xl font-bold text-accent hover:text-accent/80">
+                <a
+                  href="tel:+17815269534"
+                  onClick={(e) => trackPhoneClick(e, "tel:+17815269534")}
+                  className="text-2xl font-bold text-accent hover:text-accent/80"
+                >
                   (781) 526-9534
                 </a>
               </div>

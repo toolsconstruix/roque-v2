@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from "lucide-react";
+import { trackPhoneClick } from "@/lib/analytics";
 import logo from "@/assets/logo.png";
 
 const services = [
@@ -35,7 +36,11 @@ export function Footer() {
               Premium remodeling and exterior services for Massachusetts homeowners.
             </p>
             <div className="space-y-2">
-              <a href="tel:+17815269534" className="flex items-center text-sm hover:text-accent transition-colors">
+              <a
+                href="tel:+17815269534"
+                onClick={(e) => trackPhoneClick(e, "tel:+17815269534")}
+                className="flex items-center text-sm hover:text-accent transition-colors"
+              >
                 <Phone className="mr-2 h-4 w-4" />
                 (781) 526-9534
               </a>
@@ -109,7 +114,6 @@ export function Footer() {
             
             <div className="space-y-2 text-sm text-primary-foreground/80">
               <p className="font-semibold text-primary-foreground">Licensed & Insured</p>
-              <p>License #MA123456</p>
             </div>
 
             <div className="flex space-x-4 mt-6">

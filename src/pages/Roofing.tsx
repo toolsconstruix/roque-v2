@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { ProcessSteps } from "@/components/ProcessSteps";
 import { LeadForm } from "@/components/LeadForm";
 import { Button } from "@/components/ui/button";
+import { trackPhoneClick } from "@/lib/analytics";
 import { CheckCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -122,6 +123,7 @@ export default function Roofing() {
                 <p className="font-semibold text-lg mb-2">Call for immediate assistance:</p>
                 <a
                   href="tel:+17815269534"
+                  onClick={(e) => trackPhoneClick(e, "tel:+17815269534")}
                   className="text-2xl font-bold text-accent hover:text-accent/80"
                 >
                   (781) 526-9534

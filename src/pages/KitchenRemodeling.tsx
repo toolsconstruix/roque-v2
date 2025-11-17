@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { ProcessSteps } from "@/components/ProcessSteps";
 import { LeadForm } from "@/components/LeadForm";
 import { Button } from "@/components/ui/button";
+import { trackPhoneClick } from "@/lib/analytics";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { CheckCircle } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -189,8 +190,12 @@ export default function KitchenRemodeling() {
               </p>
               <div className="mt-8 p-6 bg-accent/10 rounded-lg border border-accent/20">
                 <p className="font-semibold text-lg mb-2">Call for immediate assistance:</p>
-                <a href="tel:+15555555555" className="text-2xl font-bold text-accent hover:text-accent/80">
-                  (555) 555-5555
+                <a
+                  href="tel:+17815269534"
+                  onClick={(e) => trackPhoneClick(e, "tel:+17815269534")}
+                  className="text-2xl font-bold text-accent hover:text-accent/80"
+                >
+                  (781) 526-9534
                 </a>
               </div>
             </div>

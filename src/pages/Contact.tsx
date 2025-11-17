@@ -2,6 +2,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { LeadForm } from "@/components/LeadForm";
 import { Phone, Mail, MapPin } from "lucide-react";
+import { trackPhoneClick } from "@/lib/analytics";
 
 export default function Contact() {
   return (
@@ -39,7 +40,7 @@ export default function Contact() {
                   <div>
                     <p className="font-semibold text-foreground mb-1">Phone</p>
                     <p>
-                      Call: <a href="tel:+17815269534" className="text-accent hover:underline">+1 (781) 526 9534</a>
+                      Call: <a href="tel:+17815269534" onClick={(e) => trackPhoneClick(e, "tel:+17815269534")} className="text-accent hover:underline">+1 (781) 526 9534</a>
                     </p>
                     <p>
                       Text: <span className="text-foreground">+1 (339) 674 8936</span>

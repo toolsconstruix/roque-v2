@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Phone, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { trackPhoneClick } from "@/lib/analytics";
 import logo from "@/assets/logo.png";
 
 const navigation = [
@@ -55,7 +56,11 @@ export function Header() {
 
         {/* Desktop CTA */}
         <div className="hidden lg:flex items-center space-x-4">
-          <a href="tel:+17815269534" className="flex items-center text-sm font-semibold text-primary hover:text-primary/90">
+          <a
+            href="tel:+17815269534"
+            onClick={(e) => trackPhoneClick(e, "tel:+17815269534")}
+            className="flex items-center text-sm font-semibold text-primary hover:text-primary/90"
+          >
             <Phone className="mr-2 h-4 w-4" />
             (781) 526-9534
           </a>
@@ -66,7 +71,7 @@ export function Header() {
 
         {/* Mobile Navigation */}
         <div className="flex items-center space-x-2 lg:hidden">
-          <a href="tel:+17815269534">
+          <a href="tel:+17815269534" onClick={(e) => trackPhoneClick(e, "tel:+17815269534")}>
             <Button size="icon" variant="ghost">
               <Phone className="h-5 w-5" />
             </Button>
