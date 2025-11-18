@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 import { PageTransition } from "@/components/PageTransition";
 import { ScrollToTop } from "@/components/ScrollToTop";
+import { CookieConsent } from "@/components/CookieConsent";
 import Index from "./pages/Index";
 import Services from "./pages/Services";
 import KitchenRemodeling from "./pages/KitchenRemodeling";
@@ -21,6 +22,9 @@ import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Testimonials from "./pages/Testimonials";
 import Contact from "./pages/Contact";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfService from "./pages/TermsOfService";
+import Thanks from "./pages/Thanks";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -41,6 +45,7 @@ const App = () => {
         <Sonner />
         <BrowserRouter>
           <ScrollToTop />
+          <CookieConsent />
           <Routes>
             <Route path="/" element={<PageTransition><Index /></PageTransition>} />
             <Route path="/services" element={<PageTransition><Services /></PageTransition>} />
@@ -56,7 +61,10 @@ const App = () => {
             <Route path="/about" element={<PageTransition><About /></PageTransition>} />
             <Route path="/testimonials" element={<PageTransition><Testimonials /></PageTransition>} />
             <Route path="/contact" element={<PageTransition><Contact /></PageTransition>} />
+            <Route path="/privacy-policy" element={<PageTransition><PrivacyPolicy /></PageTransition>} />
+            <Route path="/terms-of-service" element={<PageTransition><TermsOfService /></PageTransition>} />
             <Route path="/kitchen-remodeling" element={<PageTransition><KitchenRemodeling /></PageTransition>} />
+            <Route path="/thanks" element={<PageTransition><Thanks /></PageTransition>} />
             {/* Additional service pages would follow the same pattern */}
             <Route path="*" element={<PageTransition><NotFound /></PageTransition>} />
           </Routes>
