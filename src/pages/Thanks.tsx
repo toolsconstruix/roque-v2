@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -6,6 +7,22 @@ import { CheckCircle, Phone, Mail, Home } from "lucide-react";
 import { trackPhoneClick } from "@/lib/analytics";
 
 export default function Thanks() {
+  useEffect(() => {
+    // Meta Pixel - Lead Conversion
+    if (typeof window !== "undefined" && (window as any).fbq) {
+      (window as any).fbq("track", "Lead");
+    }
+
+    // Google Tag Manager - Form Submission Event
+    if (typeof window !== "undefined" && (window as any).dataLayer) {
+      (window as any).dataLayer.push({
+        event: "form_submission",
+        form_type: "contact",
+        page_location: window.location.href,
+      });
+    }
+  }, []);
+
   return (
     <div className="min-h-screen flex flex-col">
       <Header />

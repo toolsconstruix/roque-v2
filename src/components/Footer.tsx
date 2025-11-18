@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from "lucide-react";
+import { Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
 import { trackPhoneClick } from "@/lib/analytics";
 import logo from "@/assets/logo.png";
 
@@ -117,7 +117,12 @@ export function Footer() {
             </div>
 
             <div className="flex space-x-4 mt-6">
-              <a href="#" className="text-primary-foreground hover:text-accent transition-colors">
+              <a
+                href="https://www.facebook.com/share/1D5wZ3cknr/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-primary-foreground hover:text-accent transition-colors"
+              >
                 <Facebook className="h-5 w-5" />
               </a>
               <a
@@ -127,9 +132,6 @@ export function Footer() {
                 className="text-primary-foreground hover:text-accent transition-colors"
               >
                 <Instagram className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-primary-foreground hover:text-accent transition-colors">
-                <Linkedin className="h-5 w-5" />
               </a>
             </div>
           </div>
