@@ -27,12 +27,6 @@ const queryClient = new QueryClient();
 
 const App = () => {
   useEffect(() => {
-    // Initialize tracking pixels
-    // Google Analytics 4
-    if (typeof window !== "undefined" && (window as any).gtag) {
-      (window as any).gtag("config", "G-XXXXXXXXXX");
-    }
-
     // Meta Pixel
     if (typeof window !== "undefined" && (window as any).fbq) {
       (window as any).fbq("init", "YOUR_PIXEL_ID");
