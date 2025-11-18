@@ -179,6 +179,9 @@ export default function Index() {
               <Button size="lg" variant="outline" asChild className="text-lg bg-white/10 backdrop-blur border-white/20 text-white hover:bg-white/20">
                 <Link to="/contact">Contact Us Today</Link>
               </Button>
+              <Button size="lg" asChild className="text-lg bg-white text-navy hover:bg-white/90">
+                <Link to="/portfolio">View Our Projects</Link>
+              </Button>
             </div>
           </div>
         </div>

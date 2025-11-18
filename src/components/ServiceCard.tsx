@@ -14,21 +14,27 @@ export function ServiceCard({ title, description, icon, href, image }: ServiceCa
   return (
     <Card className="group overflow-hidden transition-all hover:shadow-lg">
       {image && (
-        <div className="relative h-80 overflow-hidden">
-          <img
-            src={image}
-            alt={title}
-            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent" />
-          <div className="absolute bottom-4 left-4 text-white">
-            {icon}
+        <Link to={href} className="block">
+          <div className="relative h-80 overflow-hidden">
+            <img
+              src={image}
+              alt={title}
+              className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent" />
+            <div className="absolute bottom-4 left-4 text-white">
+              {icon}
+            </div>
           </div>
-        </div>
+        </Link>
       )}
       <CardHeader>
         {!image && <div className="mb-2 text-accent">{icon}</div>}
-        <CardTitle className="text-xl">{title}</CardTitle>
+        <CardTitle className="text-xl">
+          <Link to={href} className="hover:text-accent transition-colors">
+            {title}
+          </Link>
+        </CardTitle>
         <CardDescription className="text-base">{description}</CardDescription>
       </CardHeader>
       <CardContent>

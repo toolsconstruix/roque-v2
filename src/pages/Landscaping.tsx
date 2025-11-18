@@ -44,14 +44,6 @@ export default function Landscaping() {
               <Button size="lg" asChild>
                 <Link to="/contact">Get a Landscaping Estimate</Link>
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                asChild
-                className="bg-white/10 backdrop-blur border-white/20 text-white hover:bg-white/20"
-              >
-                <Link to="/portfolio">View Outdoor Projects</Link>
-              </Button>
             </div>
           </div>
         </div>

@@ -120,7 +120,12 @@ export function Footer() {
               <a href="#" className="text-primary-foreground hover:text-accent transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-primary-foreground hover:text-accent transition-colors">
+              <a
+                href="https://www.instagram.com/roque_services/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-primary-foreground hover:text-accent transition-colors"
+              >
                 <Instagram className="h-5 w-5" />
               </a>
               <a href="#" className="text-primary-foreground hover:text-accent transition-colors">
@@ -137,7 +142,7 @@ export function Footer() {
               <Link to="/privacy-policy" className="hover:text-accent transition-colors">
                 Privacy Policy
               </Link>
-              <Link to="/terms" className="hover:text-accent transition-colors">
+              <Link to="/terms-of-service" className="hover:text-accent transition-colors">
                 Terms of Service
               </Link>
             </div>
