@@ -1,13 +1,21 @@
 import type { MouseEvent } from "react";
 
-export function trackPhoneClick(event: MouseEvent<HTMLAnchorElement>, phoneUrl: string) {
-  const gtagConversion =
-    typeof window !== "undefined"
-      ? ((window as any).gtag_report_conversion as ((url?: string) => void) | undefined)
-      : undefined;
+declare global {
+  interface Window {
+    dataLayer?: any[];
+  }
+}
 
-  if (typeof gtagConversion === "function") {
-    event.preventDefault();
-    gtagConversion(phoneUrl);
+export function trackPhoneClick(_event: MouseEvent<HTMLAnchorElement>, phoneUrl: string) {
+  if (typeof window !== "undefined") {
+    if (!Array.isArray(window.dataLayer)) {
+      window.dataLayer = [];
+    }
+
+    window.dataLayer.push({
+      event: "phone_click",
+      phone_number: phoneUrl,
+      location: "header",
+    });
   }
 }

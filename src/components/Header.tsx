@@ -3,7 +3,7 @@ import { Phone, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { trackPhoneClick } from "@/lib/analytics";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo_roque_600x181px.png";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -24,7 +24,7 @@ export function Header() {
           <img
             src={logo}
             alt="Roque General Services"
-            className="h-20 w-20 aspect-square object-contain"
+            className="h-16 w-auto object-contain"
           />
         </Link>
 
