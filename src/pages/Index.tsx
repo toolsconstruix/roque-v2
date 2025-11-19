@@ -63,14 +63,6 @@ const services = [
     image: bathroomImage,
   },
   {
-    title: "Construction & Home Remodeling",
-    description:
-      "Full remodeling and construction services, including room upgrades, structural work, exterior builds, and interior improvements.",
-    icon: <Hammer className="h-8 w-8" />,
-    href: "/roofing",
-    image: roofingImage,
-  },
-  {
     title: "Drywall, Trim & Flooring Installation",
     description:
       "Professional drywall installation/repair, trim and molding upgrades, and durable, stylish flooring installation.",
