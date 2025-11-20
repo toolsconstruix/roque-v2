@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 import kitchenImage from "@/assets/kitchen-remodeling.jpg";
 import bathroomImage from "@/assets/bathroom-remodeling.jpg";
-import decksImage from "@/assets/decks.jpg";
+import decksImage from "@/assets/fence-deck.jpg";
 import sidingImage from "@/assets/siding.jpg";
 import roofingImage from "@/assets/roofing.jpg";
 import hardscapeImage from "@/assets/hardscape.jpg";

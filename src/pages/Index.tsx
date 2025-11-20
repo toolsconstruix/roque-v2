@@ -4,6 +4,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { trackPhoneClick } from "@/lib/analytics";
 import { ServiceCard } from "@/components/ServiceCard";
+import { VideoHero } from "../components/VideoHero";
 import { TrustBadges } from "@/components/TrustBadges";
 import { ProcessSteps } from "@/components/ProcessSteps";
 import { TestimonialCard } from "@/components/TestimonialCard";
@@ -281,10 +282,18 @@ export default function Index() {
               </div>
             </div>
             <div className="relative">
-              <div className="aspect-square rounded-2xl bg-gradient-to-br from-navy to-navy-light p-8 flex items-center justify-center">
+              <div className="aspect-square rounded-2xl p-8 flex items-center justify-center">
                 <div className="text-center text-white">
-                  <Hammer className="h-24 w-24 mx-auto mb-6 text-accent" />
-                  <p className="text-2xl font-semibold">
+                  {/* Vídeo acima do ícone */}
+                  <div className="flex justify-center mb-6">
+                    <VideoHero
+                      videoSrc="/video.mp4"
+                      fallbackImage="/placeholder.svg"
+                      posterImage="/placeholder.svg"
+                      className="w-[282px] h-[500px] rounded-xl shadow-lg object-cover mx-auto"
+                    />
+                  </div>
+                  <p className="text-2xl font-semibold text-primary">
                     "From first call to final walkthrough — <br />
                     organized, on time, and on your side."
                   </p>
