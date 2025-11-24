@@ -1,3 +1,204 @@
+            {/* Featured Projects */}
+            <section className="py-20">
+              <div className="container">
+                <div className="text-center max-w-3xl mx-auto mb-16">
+                  <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Projects</h2>
+                  <p className="text-lg text-muted-foreground">
+                    Real transformations for Massachusetts homeowners. Explore our recent work and see the difference.
+                  </p>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  {/* Attic Conversion */}
+                  <div className="bg-white rounded-2xl shadow p-6 flex flex-col">
+                    <h3 className="text-xl font-bold mb-2">Attic Conversion</h3>
+                    <div className="flex gap-4 mb-2">
+                      <div className="flex-1">
+                        <div className="text-sm font-semibold text-muted-foreground mb-1">Before</div>
+                        <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                      </div>
+                      <div className="flex-1">
+                        <div className="text-sm font-semibold text-muted-foreground mb-1">After</div>
+                        <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                      </div>
+                    </div>
+                    <p className="mb-2">Insulation, drywall, painting, and flooring transformed this attic into a modern living space.</p>
+                    <ul className="text-sm text-muted-foreground mb-2 list-disc list-inside">
+                      <li>Drywall</li>
+                      <li>Painting</li>
+                      <li>Flooring</li>
+                      <li>Carpentry</li>
+                    </ul>
+                  </div>
+                  {/* Complete Interior Renovation */}
+                  <div className="bg-white rounded-2xl shadow p-6 flex flex-col">
+                    <h3 className="text-xl font-bold mb-2">Complete Interior Renovation</h3>
+                    <div className="flex gap-4 mb-2">
+                      <div className="flex-1">
+                        <div className="text-sm font-semibold text-muted-foreground mb-1">Before</div>
+                        <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                      </div>
+                      <div className="flex-1">
+                        <div className="text-sm font-semibold text-muted-foreground mb-1">After</div>
+                        <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                      </div>
+                    </div>
+                    <p className="mb-2">A full transformation from outdated to modern: new paint, floors, drywall, trim, and lighting.</p>
+                    <ul className="text-sm text-muted-foreground mb-2 list-disc list-inside">
+                      <li>Painting</li>
+                      <li>Flooring</li>
+                      <li>Drywall</li>
+                      <li>Trim</li>
+                      <li>Lighting</li>
+                    </ul>
+                    <span className="inline-block text-xs bg-primary/10 text-primary px-2 py-1 rounded">Before / After</span>
+                  </div>
+                  {/* Kitchen Remodeling */}
+                  <div className="bg-white rounded-2xl shadow p-6 flex flex-col">
+                    <h3 className="text-xl font-bold mb-2">Kitchen Remodeling</h3>
+                    <div className="flex gap-4 mb-2">
+                      <div className="flex-1">
+                        <div className="text-sm font-semibold text-muted-foreground mb-1">Before</div>
+                        <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                      </div>
+                      <div className="flex-1">
+                        <div className="text-sm font-semibold text-muted-foreground mb-1">After</div>
+                        <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                      </div>
+                    </div>
+                    <p className="mb-2">From outdated to modern: custom cabinetry, countertops, lighting, and improved layout.</p>
+                    <ul className="text-sm text-muted-foreground mb-2 list-disc list-inside">
+                      <li>Custom Cabinetry</li>
+                      <li>Countertops</li>
+                      <li>Lighting</li>
+                      <li>Layout Improvements</li>
+                    </ul>
+                    <span className="inline-block text-xs bg-primary/10 text-primary px-2 py-1 rounded">Before / After</span>
+                  </div>
+                  {/* Bathroom Remodeling */}
+                  <div className="bg-white rounded-2xl shadow p-6 flex flex-col">
+                    <h3 className="text-xl font-bold mb-2">Bathroom Remodeling</h3>
+                    <div className="flex gap-4 mb-2">
+                      <div className="flex-1">
+                        <div className="text-sm font-semibold text-muted-foreground mb-1">Before</div>
+                        <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                      </div>
+                      <div className="flex-1">
+                        <div className="text-sm font-semibold text-muted-foreground mb-1">After</div>
+                        <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                      </div>
+                    </div>
+                    <p className="mb-2">A comfortable, elegant retreat with durable finishes and modern upgrades.</p>
+                    <ul className="text-sm text-muted-foreground mb-2 list-disc list-inside">
+                      <li>Vanities</li>
+                      <li>Showers</li>
+                      <li>Flooring</li>
+                      <li>Lighting</li>
+                    </ul>
+                    <span className="inline-block text-xs bg-primary/10 text-primary px-2 py-1 rounded">Before / After</span>
+                  </div>
+                </div>
+              </div>
+            </section>
+      {/* Featured Projects */}
+      <section className="py-20">
+        <div className="container">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Projects</h2>
+            <p className="text-lg text-muted-foreground">
+              Real transformations for Massachusetts homeowners. Explore our recent work and see the difference.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Attic Conversion */}
+            <div className="bg-white rounded-2xl shadow p-6 flex flex-col">
+              <h3 className="text-xl font-bold mb-2">Attic Conversion</h3>
+              <div className="flex gap-4 mb-2">
+                <div className="flex-1">
+                  <div className="text-sm font-semibold text-muted-foreground mb-1">Before</div>
+                  <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                </div>
+                <div className="flex-1">
+                  <div className="text-sm font-semibold text-muted-foreground mb-1">After</div>
+                  <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                </div>
+              </div>
+              <p className="mb-2">Insulation, drywall, painting, and flooring transformed this attic into a modern living space.</p>
+              <ul className="text-sm text-muted-foreground mb-2 list-disc list-inside">
+                <li>Drywall</li>
+                <li>Painting</li>
+                <li>Flooring</li>
+                <li>Carpentry</li>
+              </ul>
+            </div>
+            {/* Complete Interior Renovation */}
+            <div className="bg-white rounded-2xl shadow p-6 flex flex-col">
+              <h3 className="text-xl font-bold mb-2">Complete Interior Renovation</h3>
+              <div className="flex gap-4 mb-2">
+                <div className="flex-1">
+                  <div className="text-sm font-semibold text-muted-foreground mb-1">Before</div>
+                  <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                </div>
+                <div className="flex-1">
+                  <div className="text-sm font-semibold text-muted-foreground mb-1">After</div>
+                  <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                </div>
+              </div>
+              <p className="mb-2">A full transformation from outdated to modern: new paint, floors, drywall, trim, and lighting.</p>
+              <ul className="text-sm text-muted-foreground mb-2 list-disc list-inside">
+                <li>Painting</li>
+                <li>Flooring</li>
+                <li>Drywall</li>
+                <li>Trim</li>
+                <li>Lighting</li>
+              </ul>
+            </div>
+            {/* Kitchen Remodeling */}
+            <div className="bg-white rounded-2xl shadow p-6 flex flex-col">
+              <h3 className="text-xl font-bold mb-2">Kitchen Remodeling</h3>
+              <div className="flex gap-4 mb-2">
+                <div className="flex-1">
+                  <div className="text-sm font-semibold text-muted-foreground mb-1">Before</div>
+                  <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                </div>
+                <div className="flex-1">
+                  <div className="text-sm font-semibold text-muted-foreground mb-1">After</div>
+                  <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                </div>
+              </div>
+              <p className="mb-2">From outdated to modern: custom cabinetry, countertops, lighting, and improved layout.</p>
+              <ul className="text-sm text-muted-foreground mb-2 list-disc list-inside">
+                <li>Custom Cabinetry</li>
+                <li>Countertops</li>
+                <li>Lighting</li>
+                <li>Layout Improvements</li>
+              </ul>
+              <span className="inline-block text-xs bg-primary/10 text-primary px-2 py-1 rounded">Before / After</span>
+            </div>
+            {/* Bathroom Remodeling */}
+            <div className="bg-white rounded-2xl shadow p-6 flex flex-col">
+              <h3 className="text-xl font-bold mb-2">Bathroom Remodeling</h3>
+              <div className="flex gap-4 mb-2">
+                <div className="flex-1">
+                  <div className="text-sm font-semibold text-muted-foreground mb-1">Before</div>
+                  <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                </div>
+                <div className="flex-1">
+                  <div className="text-sm font-semibold text-muted-foreground mb-1">After</div>
+                  <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                </div>
+              </div>
+              <p className="mb-2">A comfortable, elegant retreat with durable finishes and modern upgrades.</p>
+              <ul className="text-sm text-muted-foreground mb-2 list-disc list-inside">
+                <li>Vanities</li>
+                <li>Showers</li>
+                <li>Flooring</li>
+                <li>Lighting</li>
+              </ul>
+              <span className="inline-block text-xs bg-primary/10 text-primary px-2 py-1 rounded">Before / After</span>
+            </div>
+          </div>
+        </div>
+      </section>
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/Header";
@@ -32,25 +233,49 @@ import interiorExteriorPaintingImage from "@/assets/interior_exterior_painting.j
 
 const services = [
   {
-    title: "Interior & Exterior Painting",
+    title: "Decks & Carpentry",
     description:
-      "High-quality painting services with smooth, long-lasting finishes for interior and exterior surfaces. Ideal for full home updates or single-room transformations.",
-    icon: <Siding className="h-8 w-8" />,
-    href: "/interior-exterior-painting",
-    image: interiorExteriorPaintingImage,
-  },
-  {
-    title: "Decks, Fences & Carpentry",
-    description:
-      "Custom carpentry solutions including decks, wood fences, trim work, structural repairs, and detailed craftsmanship for both interior and exterior projects.",
+      "Custom decks, stairs, framing, and outdoor structures built with precision and durability.",
     icon: <Frame className="h-8 w-8" />,
     href: "/decks",
     image: decksImage,
   },
   {
+    title: "Interior & Exterior Painting",
+    description:
+      "Flawless finishes that refresh and protect your home, inside and out.",
+    icon: <Siding className="h-8 w-8" />,
+    href: "/interior-exterior-painting",
+    image: interiorExteriorPaintingImage,
+  },
+  {
+    title: "Drywall & Trim",
+    description:
+      "Smooth walls, clean lines, baseboards, casings, and detailed trim work.",
+    icon: <ShieldCheck className="h-8 w-8" />,
+    href: "/drywall-trim",
+    image: hardscapeImage,
+  },
+  {
+    title: "Flooring Installation",
+    description:
+      "Durable, stylish flooring solutions that complete any space.",
+    icon: <Home className="h-8 w-8" />,
+    href: "/flooring",
+    image: roofingImage,
+  },
+  {
+    title: "Room Renovations",
+    description:
+      "Transformative upgrades to bedrooms, living rooms, attics, and more.",
+    icon: <Home className="h-8 w-8" />,
+    href: "/room-renovations",
+    image: kitchenImage,
+  },
+  {
     title: "Kitchen Remodeling",
     description:
-      "Complete kitchen transformations with custom cabinetry, countertop upgrades, lighting improvements, and optimized layouts designed for functionality and style.",
+      "From outdated kitchens to modern, functional spaces tailored to your lifestyle.",
     icon: <Home className="h-8 w-8" />,
     href: "/kitchen-remodeling",
     image: kitchenImage,
@@ -58,40 +283,18 @@ const services = [
   {
     title: "Bathroom Remodeling",
     description:
-      "Modern bathroom renovations with new vanities, showers, lighting, flooring, and layout improvements for comfort, durability, and elegance.",
+      "Turn your bathroom into a comfortable, relaxing retreat with elegant finishes.",
     icon: <Droplet className="h-8 w-8" />,
     href: "/bathroom-remodeling",
     image: bathroomImage,
   },
   {
-    title: "Drywall, Trim & Flooring Installation",
+    title: "Complete Interior Renovation",
     description:
-      "Professional drywall installation/repair, trim and molding upgrades, and durable, stylish flooring installation.",
-    icon: <ShieldCheck className="h-8 w-8" />,
-    href: "/hardscape",
-    image: hardscapeImage,
-  },
-  {
-    title: "Home Upgrades & Improvements",
-    description:
-      "Practical aesthetic and functional improvements, from small repairs to interior updates that modernize and add comfort.",
+      "Full interior upgrades combining functionality, design, and high-quality craftsmanship.",
     icon: <Home className="h-8 w-8" />,
-    href: "/home-upgrades",
-    image: roofingImage,
-  },
-  {
-    title: "Landscaping Services",
-    description: "Basic outdoor maintenance and garden care.",
-    icon: <Mountain className="h-8 w-8" />,
-    href: "/landscaping",
-    image: hardscapeImage,
-  },
-  {
-    title: "Snow Removal",
-    description: "Winter snow clearing when needed.",
-    icon: <Snowflake className="h-8 w-8" />,
-    href: "/services",
-    image: snowImage,
+    href: "/complete-interior-renovation",
+    image: kitchenImage,
   },
 ];
 
@@ -160,17 +363,17 @@ export default function Index() {
         <div className="container relative z-10">
           <div className="max-w-3xl">
             <div className="inline-block px-4 py-2 bg-accent/10 rounded-full text-accent font-semibold text-sm mb-6">
-              Proudly Serving Massachusetts
+              Roque G Services – Massachusetts
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              On Time. Well-Organized. <br />Built to Impress.
+              Transforming Spaces, Elevating Homes
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
-              Premium interior & exterior painting, carpentry, and full home remodeling services for Massachusetts homeowners.
+              Complete solutions for homeowners in Massachusetts – from decks and carpentry to full interior and exterior renovations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" variant="outline" asChild className="text-lg bg-white/10 backdrop-blur border-white/20 text-white hover:bg-white/20">
-                <Link to="/contact">Contact Us Today</Link>
+              <Button size="lg" asChild className="text-lg bg-primary text-white hover:bg-primary/90">
+                <Link to="/contact">Get a Free Estimate</Link>
               </Button>
               <Button size="lg" asChild className="text-lg bg-white text-navy hover:bg-white/90">
                 <Link to="/portfolio">View Our Projects</Link>
@@ -204,19 +407,134 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Services Section */}
       <section className="py-20 md:py-28">
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Services</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Main Services</h2>
             <p className="text-lg text-muted-foreground">
-              High-quality painting, carpentry, remodeling, and home improvement services  done right from start to finish.
+              Complete solutions for Massachusetts homeowners: decks, carpentry, painting, drywall, flooring, kitchen & bath remodels, and more.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service) => (
               <ServiceCard key={service.title} {...service} />
             ))}
+          </div>
+        </div>
+      </section>
+
+
+      {/* Smart & Functional Upgrades */}
+      <section className="py-16 bg-muted/30">
+        <div className="container">
+          <div className="max-w-2xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Smart & Functional Upgrades</h2>
+            <p className="text-lg text-muted-foreground mb-4">
+              We deliver practical, long-lasting improvements that boost comfort and add value to your home. Our team integrates expert carpentry, painting, drywall, flooring, and full renovations to create spaces that work for your lifestyle.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Projects */}
+      <section className="py-20">
+        <div className="container">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Projects</h2>
+            <p className="text-lg text-muted-foreground">
+              Real transformations for Massachusetts homeowners. Explore our recent work and see the difference.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Attic Conversion */}
+            <div className="bg-white rounded-2xl shadow p-6 flex flex-col">
+              <h3 className="text-xl font-bold mb-2">Attic Conversion</h3>
+              <div className="flex gap-4 mb-2">
+                <div className="flex-1">
+                  <div className="text-sm font-semibold text-muted-foreground mb-1">Before</div>
+                  <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                </div>
+                <div className="flex-1">
+                  <div className="text-sm font-semibold text-muted-foreground mb-1">After</div>
+                  <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                </div>
+              </div>
+              <p className="mb-2">Insulation, drywall, painting, and flooring transformed this attic into a modern living space.</p>
+              <ul className="text-sm text-muted-foreground mb-2 list-disc list-inside">
+                <li>Drywall</li>
+                <li>Painting</li>
+                <li>Flooring</li>
+                <li>Carpentry</li>
+              </ul>
+              <span className="inline-block text-xs bg-primary/10 text-primary px-2 py-1 rounded">Before / After</span>
+            </div>
+            {/* Complete Interior Renovation */}
+            <div className="bg-white rounded-2xl shadow p-6 flex flex-col">
+              <h3 className="text-xl font-bold mb-2">Complete Interior Renovation</h3>
+              <div className="flex gap-4 mb-2">
+                <div className="flex-1">
+                  <div className="text-sm font-semibold text-muted-foreground mb-1">Before</div>
+                  <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                </div>
+                <div className="flex-1">
+                  <div className="text-sm font-semibold text-muted-foreground mb-1">After</div>
+                  <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                </div>
+              </div>
+              <p className="mb-2">A full transformation from outdated to modern: new paint, floors, drywall, trim, and lighting.</p>
+              <ul className="text-sm text-muted-foreground mb-2 list-disc list-inside">
+                <li>Painting</li>
+                <li>Flooring</li>
+                <li>Drywall</li>
+                <li>Trim</li>
+                <li>Lighting</li>
+              </ul>
+              <span className="inline-block text-xs bg-primary/10 text-primary px-2 py-1 rounded">Before / After</span>
+            </div>
+            {/* Kitchen Remodeling */}
+            <div className="bg-white rounded-2xl shadow p-6 flex flex-col">
+              <h3 className="text-xl font-bold mb-2">Kitchen Remodeling</h3>
+              <div className="flex gap-4 mb-2">
+                <div className="flex-1">
+                  <div className="text-sm font-semibold text-muted-foreground mb-1">Before</div>
+                  <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                </div>
+                <div className="flex-1">
+                  <div className="text-sm font-semibold text-muted-foreground mb-1">After</div>
+                  <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                </div>
+              </div>
+              <p className="mb-2">From outdated to modern: custom cabinetry, countertops, lighting, and improved layout.</p>
+              <ul className="text-sm text-muted-foreground mb-2 list-disc list-inside">
+                <li>Custom Cabinetry</li>
+                <li>Countertops</li>
+                <li>Lighting</li>
+                <li>Layout Improvements</li>
+              </ul>
+              <span className="inline-block text-xs bg-primary/10 text-primary px-2 py-1 rounded">Before / After</span>
+            </div>
+            {/* Bathroom Remodeling */}
+            <div className="bg-white rounded-2xl shadow p-6 flex flex-col">
+              <h3 className="text-xl font-bold mb-2">Bathroom Remodeling</h3>
+              <div className="flex gap-4 mb-2">
+                <div className="flex-1">
+                  <div className="text-sm font-semibold text-muted-foreground mb-1">Before</div>
+                  <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                </div>
+                <div className="flex-1">
+                  <div className="text-sm font-semibold text-muted-foreground mb-1">After</div>
+                  <div className="aspect-video bg-muted rounded-lg flex items-center justify-center text-muted-foreground">Image</div>
+                </div>
+              </div>
+              <p className="mb-2">A comfortable, elegant retreat with durable finishes and modern upgrades.</p>
+              <ul className="text-sm text-muted-foreground mb-2 list-disc list-inside">
+                <li>Vanities</li>
+                <li>Showers</li>
+                <li>Flooring</li>
+                <li>Lighting</li>
+              </ul>
+              <span className="inline-block text-xs bg-primary/10 text-primary px-2 py-1 rounded">Before / After</span>
+            </div>
           </div>
         </div>
       </section>

@@ -7,6 +7,8 @@ import { useEffect } from "react";
 import { PageTransition } from "@/components/PageTransition";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { CookieConsent } from "@/components/CookieConsent";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import Index from "./pages/Index";
 import Services from "./pages/Services";
 import KitchenRemodeling from "./pages/KitchenRemodeling";
@@ -43,6 +45,8 @@ const App = () => {
       <TooltipProvider>
         <Toaster />
         <Sonner />
+        <Analytics />
+        <SpeedInsights />
         <BrowserRouter>
           <ScrollToTop />
           <CookieConsent />
