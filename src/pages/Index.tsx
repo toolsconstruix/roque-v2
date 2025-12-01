@@ -71,7 +71,6 @@
                       <li>Lighting</li>
                       <li>Layout Improvements</li>
                     </ul>
-                    <span className="inline-block text-xs bg-primary/10 text-primary px-2 py-1 rounded">Before / After</span>
                   </div>
                   {/* Bathroom Remodeling */}
                   <div className="bg-white rounded-2xl shadow p-6 flex flex-col">
@@ -93,7 +92,6 @@
                       <li>Flooring</li>
                       <li>Lighting</li>
                     </ul>
-                    <span className="inline-block text-xs bg-primary/10 text-primary px-2 py-1 rounded">Before / After</span>
                   </div>
                 </div>
               </div>
@@ -171,7 +169,6 @@
                 <li>Lighting</li>
                 <li>Layout Improvements</li>
               </ul>
-              <span className="inline-block text-xs bg-primary/10 text-primary px-2 py-1 rounded">Before / After</span>
             </div>
             {/* Bathroom Remodeling */}
             <div className="bg-white rounded-2xl shadow p-6 flex flex-col">
@@ -193,7 +190,6 @@
                 <li>Flooring</li>
                 <li>Lighting</li>
               </ul>
-              <span className="inline-block text-xs bg-primary/10 text-primary px-2 py-1 rounded">Before / After</span>
             </div>
           </div>
         </div>
@@ -476,7 +472,6 @@ export default function Index() {
                 </div>
               </div>
               <p className="mb-2">A full transformation from outdated to modern: new paint, floors, drywall, trim, and lighting.</p>
-              
             </div>
             {/* Kitchen Remodeling */}
             <div className="bg-white rounded-2xl shadow p-6 flex flex-col">
@@ -492,13 +487,6 @@ export default function Index() {
                 </div>
               </div>
               <p className="mb-2">From outdated to modern: custom cabinetry, countertops, lighting, and improved layout.</p>
-              <ul className="text-sm text-muted-foreground mb-2 list-disc list-inside">
-                <li>Custom Cabinetry</li>
-                <li>Countertops</li>
-                <li>Lighting</li>
-                <li>Layout Improvements</li>
-              </ul>
-              <span className="inline-block text-xs bg-primary/10 text-primary px-2 py-1 rounded">Before / After</span>
             </div>
             {/* Bathroom Remodeling */}
             <div className="bg-white rounded-2xl shadow p-6 flex flex-col">
@@ -514,13 +502,6 @@ export default function Index() {
                 </div>
               </div>
               <p className="mb-2">A comfortable, elegant retreat with durable finishes and modern upgrades.</p>
-              <ul className="text-sm text-muted-foreground mb-2 list-disc list-inside">
-                <li>Vanities</li>
-                <li>Showers</li>
-                <li>Flooring</li>
-                <li>Lighting</li>
-              </ul>
-              <span className="inline-block text-xs bg-primary/10 text-primary px-2 py-1 rounded">Before / After</span>
             </div>
           </div>
         </div>
