@@ -23,10 +23,10 @@
                     </div>
                     <p className="mb-2">Insulation, drywall, painting, and flooring transformed this attic into a modern living space.</p>
                     <ul className="text-sm text-muted-foreground mb-2 list-disc list-inside">
-                      <li>Drywall - 555</li>
+                      <li>Drywall</li>
                       <li>Painting</li>
-                      <li>Flooring</li>
-                      <li>Carpentry</li>
+                      <li>feito</li>
+                      
                     </ul>
                   </div>
                   {/* Complete Interior Renovation */}
@@ -50,7 +50,6 @@
                       <li>Trim</li>
                       <li>Lighting</li>
                     </ul>
-                    <span className="inline-block text-xs bg-primary/10 text-primary px-2 py-1 rounded">Before / After</span>
                   </div>
                   {/* Kitchen Remodeling */}
                   <div className="bg-white rounded-2xl shadow p-6 flex flex-col">
@@ -124,7 +123,7 @@
               </div>
               <p className="mb-2">Insulation, drywall, painting, and flooring transformed this attic into a modern living space.</p>
               <ul className="text-sm text-muted-foreground mb-2 list-disc list-inside">
-                <li>Drywall</li>
+                <li>aqui</li>
                 <li>Painting</li>
                 <li>Flooring</li>
                 <li>Carpentry</li>
@@ -461,10 +460,6 @@ export default function Index() {
               </div>
               <p className="mb-2">Insulation, drywall, painting, and flooring transformed this attic into a modern living space.</p>
               <ul className="text-sm text-muted-foreground mb-2 list-disc list-inside">
-                <li>Drywall</li>
-                <li>Painting</li>
-                <li>Flooring</li>
-                <li>Carpentry</li>
               </ul>
               <span className="inline-block text-xs bg-primary/10 text-primary px-2 py-1 rounded">Before / After</span>
             </div>
