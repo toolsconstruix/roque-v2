@@ -2,7 +2,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { useEffect } from "react";
 import { PageTransition } from "@/components/PageTransition";
 import { ScrollToTop } from "@/components/ScrollToTop";
@@ -29,6 +29,13 @@ import TermsOfService from "./pages/TermsOfService";
 import Thanks from "./pages/Thanks";
 import NotFound from "./pages/NotFound";
 
+import { AuthProvider } from "@/components/auth/AuthProvider";
+import Login from "./pages/admin/Login";
+import AdminLayout from "./components/layouts/AdminLayout";
+import Dashboard from "./pages/admin/Dashboard";
+import BlogPosts from "./pages/admin/BlogPosts";
+import BlogPostEditor from "./pages/admin/BlogPostEditor";
+
 const queryClient = new QueryClient();
 
 const App = () => {
@@ -42,16 +49,27 @@ const App = () => {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <Toaster />
-        <Sonner />
-        <Analytics />
-        <SpeedInsights />
-        <BrowserRouter>
-          <ScrollToTop />
-          <CookieConsent />
-          <Routes>
-            <Route path="/" element={<PageTransition><Index /></PageTransition>} />
+      <AuthProvider>
+        <TooltipProvider>
+          <Toaster />
+          <Sonner />
+          <Analytics />
+          <SpeedInsights />
+          <BrowserRouter>
+            <ScrollToTop />
+            <CookieConsent />
+            <Routes>
+              {/* Admin Routes */}
+              <Route path="/admin/login" element={<Login />} />
+              <Route path="/admin" element={<AdminLayout />}>
+                <Route index element={<Navigate to="/admin/dashboard" replace />} />
+                <Route path="dashboard" element={<Dashboard />} />
+                {/* Placeholder for other admin routes */}
+                <Route path="*" element={<div>Página em construção</div>} />
+              </Route>
+
+              {/* Public Routes */}
+              <Route path="/" element={<PageTransition><Index /></PageTransition>} />
             <Route path="/services" element={<PageTransition><Services /></PageTransition>} />
             <Route path="/interior-exterior-painting" element={<PageTransition><InteriorExteriorPainting /></PageTransition>} />
             <Route path="/decks" element={<PageTransition><DecksCarpentry /></PageTransition>} />
@@ -74,6 +92,7 @@ const App = () => {
           </Routes>
         </BrowserRouter>
       </TooltipProvider>
+      </AuthProvider>
     </QueryClientProvider>
   );
 };

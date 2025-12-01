@@ -459,9 +459,8 @@ export default function Index() {
                 </div>
               </div>
               <p className="mb-2">Insulation, drywall, painting, and flooring transformed this attic into a modern living space.</p>
-              <ul className="text-sm text-muted-foreground mb-2 list-disc list-inside">
-              </ul>
-              <span className="inline-block text-xs bg-primary/10 text-primary px-2 py-1 rounded">Before / After</span>
+              
+    
             </div>
             {/* Complete Interior Renovation */}
             <div className="bg-white rounded-2xl shadow p-6 flex flex-col">
@@ -477,14 +476,7 @@ export default function Index() {
                 </div>
               </div>
               <p className="mb-2">A full transformation from outdated to modern: new paint, floors, drywall, trim, and lighting.</p>
-              <ul className="text-sm text-muted-foreground mb-2 list-disc list-inside">
-                <li>Painting</li>
-                <li>Flooring</li>
-                <li>Drywall</li>
-                <li>Trim</li>
-                <li>Lighting</li>
-              </ul>
-              <span className="inline-block text-xs bg-primary/10 text-primary px-2 py-1 rounded">Before / After</span>
+              
             </div>
             {/* Kitchen Remodeling */}
             <div className="bg-white rounded-2xl shadow p-6 flex flex-col">
