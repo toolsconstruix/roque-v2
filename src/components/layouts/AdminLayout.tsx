@@ -32,6 +32,7 @@ const AdminLayout = () => {
     { icon: LayoutDashboard, label: 'Dashboard', path: '/admin/dashboard' },
     { icon: FileText, label: 'Blog Posts', path: '/admin/blog' },
     { icon: Briefcase, label: 'Projetos', path: '/admin/projects' },
+    { icon: Briefcase, label: 'Serviços', path: '/admin/services' },
     { icon: ImageIcon, label: 'Conteúdo Site', path: '/admin/content' },
     { icon: Settings, label: 'Configurações', path: '/admin/settings' },
   ];
